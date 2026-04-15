@@ -87,10 +87,11 @@
     </div>
 
     <!-- Tarjetas de artículos secundarios -->
+<!-- Tarjetas de artículos secundarios -->
 <div class="row mb-2">
+    <!-- Primera columna: Video -->
     <div class="col-md-6">
         <div class="border rounded overflow-hidden shadow-sm position-relative">
-            <!-- El video ocupa todo el ancho del card -->
             <div class="ratio ratio-16x9">
                 <iframe src="https://www.youtube.com/embed/zpOULjyy-n8" 
                         title="YouTube video" 
@@ -99,42 +100,34 @@
             </div>
         </div>
     </div>
-</div>
-        
-        <div class="col-md-6">
-            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-                <div class="col p-4 d-flex flex-column position-static">
-                    <strong class="d-inline-block mb-2 text-success-emphasis">Tecnología</strong>
-                    <h3 class="mb-0">Otro título de post</h3>
-                    <div class="mb-1 text-body-secondary">Nov 11</div>
-                    <p class="mb-auto">
-                        Otro texto de ejemplo para mostrar cómo se ven las tarjetas 
-                        una al lado de la otra en pantallas grandes.
-                    </p>
-                    <a href="#" class="icon-link gap-1 icon-link-hover stretched-link"> <!-- CORREGIR: Reemplazar # con enlace real -->
-                        Seguir leyendo
-                        <svg class="bi" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                        </svg>
-                    </a>
-                </div>
-                <div class="col-auto d-none d-lg-block">
-                    <!-- 
-                        === IMAGEN 2: Artículo "Tecnología" ===
-                        Misma situación: placeholder gris a reemplazar.
-                        
-                        RECOMENDACIÓN: Usar una imagen diferente para variar
-                        <img src="https://picsum.photos/200/250?random=2" 
-                             alt="Imagen representativa del artículo de tecnología" 
-                             style="width: 200px; height: 250px; object-fit: cover;">
-                        
-                        El parámetro ?random=2 nos dará una imagen distinta a la anterior
-                    -->
-                    <div class="bg-secondary" style="width: 200px; height: 250px;"></div>
-                </div>
+
+    <!-- Segunda columna: Artículo de Tecnología -->
+    <div class="col-md-6">
+        <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-success-emphasis">Tecnología</strong>
+                <h3 class="mb-0">Otro título de post</h3>
+                <div class="mb-1 text-body-secondary">Nov 11</div>
+                <p class="mb-auto">
+                    Otro texto de ejemplo para mostrar cómo se ven las tarjetas 
+                    una al lado de la otra en pantallas grandes.
+                </p>
+                <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                    Seguir leyendo
+                    <svg class="bi" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <!-- Reemplaza el div gris por tu imagen real -->
+                <img src="https://picsum.photos/200/250?random=2" 
+                     alt="Imagen representativa del artículo de tecnología" 
+                     style="width: 200px; height: 250px; object-fit: cover;">
             </div>
         </div>
     </div>
+</div>
 
     <!-- Contenido principal del blog + sidebar -->
     <div class="row g-5">
